@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:cy7030/SpringCloudConfig.git               #配置git仓库地址
+          search-paths: respo #配置仓库的路径
+          username:           #访问git仓库的用户名
+          password:           #访问git仓库的密码
+      label: master           #配置仓库的分支
+server:
+  port: 8888
