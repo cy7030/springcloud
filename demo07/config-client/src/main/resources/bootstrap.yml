@@ -3,9 +3,13 @@ spring:
     name: config-client
   cloud:
     config:
-      label: master
-      uri: http://localhost:8888/
-      profile: dev
+      label: master #分支
+      uri: http://localhost:8888/ #server的url
+      profile: dev #开发环境
+      # 备注：特别注意： yml或者properties的名字必须是bootstrap.yml/properties;
+      # 如果server配置到eureka中去的话，就使用这个discovery属性 然后用服务名去eureka中去拿， 另外还要配置eureka的地址
+      # 如果server没有注册到eureka中去的话，就不用使用这个discovery属性，也不配置eureka的地址。直接就可拿到远成仓库的数据，或者是配置文件
+      # 只有配置了discovery 才可以将服务暴露在eureka中去， 如果没有下面的属性，就暴露不到eureka服务中去（亲测）必须使用@EnableEurekaClient注解，但是这里用不到该注解
       discovery:
         enabled: true #从配置中心读取文件
         service-id: config-server #配置中心的serviceId 即服务名
@@ -15,4 +19,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8889/eureka/
-
