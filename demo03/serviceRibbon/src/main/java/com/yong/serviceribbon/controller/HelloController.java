@@ -1,6 +1,6 @@
-package com.hcfc.serviceribbon.controller;
+package com.yong.serviceribbon.controller;
 
-import com.hcfc.serviceribbon.service.HelloService;
+import com.yong.serviceribbon.service.HelloService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

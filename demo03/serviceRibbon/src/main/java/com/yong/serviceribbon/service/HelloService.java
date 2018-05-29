@@ -1,4 +1,4 @@
-package com.hcfc.serviceribbon.service;
+package com.yong.serviceribbon.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.stereotype.Service;
