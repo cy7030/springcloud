@@ -1,4 +1,4 @@
-package com.hcfc.client;
+package com.yong.client;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
