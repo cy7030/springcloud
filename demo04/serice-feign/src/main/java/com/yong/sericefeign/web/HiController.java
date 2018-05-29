@@ -1,6 +1,6 @@
-package com.hcfc.sericefeign.web;
+package com.yong.sericefeign.web;
 
-import com.hcfc.sericefeign.service.SchedualServiceHi;
+import com.yong.sericefeign.service.SchedualServiceHi;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

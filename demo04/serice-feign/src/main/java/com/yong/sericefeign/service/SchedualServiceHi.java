@@ -1,6 +1,6 @@
-package com.hcfc.sericefeign.service;
+package com.yong.sericefeign.service;
 
-import com.hcfc.sericefeign.service.impl.SchedualServiceHiHystric;
+import com.yong.sericefeign.service.impl.SchedualServiceHiHystric;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

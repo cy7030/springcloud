@@ -1,6 +1,6 @@
-package com.hcfc.sericefeign.service.impl;
+package com.yong.sericefeign.service.impl;
 
-import com.hcfc.sericefeign.service.SchedualServiceHi;
+import com.yong.sericefeign.service.SchedualServiceHi;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 

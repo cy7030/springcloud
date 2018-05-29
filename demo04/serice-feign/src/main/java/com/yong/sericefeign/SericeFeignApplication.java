@@ -1,4 +1,4 @@
-package com.hcfc.sericefeign;
+package com.yong.sericefeign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
