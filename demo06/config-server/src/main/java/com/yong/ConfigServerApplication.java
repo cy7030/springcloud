@@ -1,4 +1,4 @@
-package com.hcfc;
+package com.yong;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
