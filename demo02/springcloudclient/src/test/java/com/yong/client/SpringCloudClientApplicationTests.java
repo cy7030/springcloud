@@ -1,4 +1,4 @@
-package com.hcfc.client;
+package com.yong.client;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
