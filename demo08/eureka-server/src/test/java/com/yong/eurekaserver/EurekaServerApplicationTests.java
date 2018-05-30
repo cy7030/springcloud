@@ -1,4 +1,4 @@
-package com.hcfc.eurekaserver;
+package com.yong.eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
