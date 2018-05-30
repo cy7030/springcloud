@@ -1,4 +1,4 @@
-package com.hcfc.sericefeign;
+package com.yong.sericefeign;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
